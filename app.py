@@ -1,9 +1,15 @@
 import importlib.resources
 
+from aoc2022.day_one_solver import DayOneSolver
+from aoc2022.day_two_solver import DayTwoSolver
+from aoc2022.day_three_solver import DayThreeSolver
 from aoc2022.day_four_solver import DayFourSolver
 import aoc2022.inputs
 
 solvers = [
+    (1, DayOneSolver),
+    (2, DayTwoSolver),
+    (3, DayThreeSolver),
     (4, DayFourSolver)
 ]
 
