@@ -5,6 +5,7 @@ from aoc2022.day_two_solver import DayTwoSolver
 from aoc2022.day_three_solver import DayThreeSolver
 from aoc2022.day_four_solver import DayFourSolver
 from aoc2022.day_five_solver import DayFiveSolver
+from aoc2022.day_eight_solver import DayEightSolver
 import aoc2022.inputs
 
 solvers = [
@@ -12,7 +13,8 @@ solvers = [
     (2, DayTwoSolver),
     (3, DayThreeSolver),
     (4, DayFourSolver),
-    (5, DayFiveSolver)
+    (5, DayFiveSolver),
+    (8, DayEightSolver)
 ]
 
 def main():
